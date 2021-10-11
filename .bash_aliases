@@ -13,6 +13,7 @@ alias vd='vimdiff'
 alias v='vim'
 alias aliases='vim ~/.bash_aliases'
 alias path='echo -e ${PATH//:/\\n}'
+alias meminfo='free -m -l -t'
 alias now='date +"%T"'
 alias nowtime=now
 alias nowdate='date +"%d-%m-%Y"'
