@@ -22,6 +22,7 @@ alias df='df -H'
 alias du='du -ch'
 alias free='free -h'
 alias ports='netstat -tulanp'
+alias collect_logs='docker'
 
 # GIT
 alias ga='git add'
