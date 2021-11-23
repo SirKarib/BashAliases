@@ -1,5 +1,6 @@
 #!/bin/bash
 # PYTHON
+alias py3='python3'
 alias ve='python3 -m venv ./venv'
 alias va='source ./venv/bin/activate'
 
