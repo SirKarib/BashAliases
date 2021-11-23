@@ -47,5 +47,5 @@ alias gss='git status -s'
 alias gush='git push origin'
 alias gull='git pull origin'
 
-# Docker
+# DOCKER
 alias d='docker'
