@@ -27,7 +27,7 @@ alias df='df -H'
 alias du='du -ch'
 alias free='free -h'
 alias ports='netstat -tulanp'
-alias collect_logs='docker run -it log-collector & cat -n register.log'
+alias collect_logs='docker attach log-collector'
 
 # GIT
 alias ga='git add'
