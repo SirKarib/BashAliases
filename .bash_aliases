@@ -50,3 +50,8 @@ alias gull='git pull origin'
 
 # DOCKER
 alias d='docker'
+alias db='docker build'
+alias di='docker images'
+alias dv='docker volume'
+alias dr='docker run'
+alias dc='docker-compose'
