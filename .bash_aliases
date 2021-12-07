@@ -7,6 +7,7 @@ alias va='source ./venv/bin/activate'
 # LINUX
 alias c='clear'
 alias t='touch'
+alias tr='tree'
 alias h='history'
 alias b='bash'
 alias f_file='find / -type f -name'
@@ -25,7 +26,7 @@ alias du='du -ch'
 alias free='free -h'
 alias meminfo='free -m -l -t'
 alias ports='netstat -tulanp'
-alias collect_logs='docker attach log-collector'
+alias collect_logs='docker logs --tail 20 log-collector'
 
 # GIT
 alias ga='git add'
