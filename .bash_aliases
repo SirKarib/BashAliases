@@ -26,7 +26,6 @@ alias du='du -ch'
 alias free='free -h'
 alias meminfo='free -m -l -t'
 alias ports='netstat -tulanp'
-alias collect_logs='docker logs --tail 20 log-collector'
 
 # GIT
 alias ga='git add'
@@ -53,3 +52,4 @@ alias db='docker build'
 alias di='docker images'
 alias dv='docker volume'
 alias dc='docker-compose'
+alias collect_logs='docker-compose start log-collector && docker logs --tail 20 log-collector'
