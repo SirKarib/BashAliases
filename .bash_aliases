@@ -28,6 +28,7 @@ alias meminfo='free -m -l -t'
 alias ports='netstat -tulanp'
 
 # GIT
+alias g='git'
 alias ga='git add'
 alias gb='git branch'
 alias gba='git branch -a'
