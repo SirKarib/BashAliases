@@ -1,13 +1,19 @@
 #!/bin/bash
 # PYTHON
 alias py3='python3'
+alias pip='pip3'
+alias pip up='pip install --upgrade pip'
 alias ve='python3 -m venv ./venv'
 alias va='source ./venv/bin/activate'
 
 # LINUX
+alias ls='ls -G'
+alias la='ls -aG'
+alias ll='ls -lG'
 alias c='clear'
 alias t='touch'
 alias tr='tree'
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias h='history'
 alias b='bash'
 alias f_file='find / -type f -name'
